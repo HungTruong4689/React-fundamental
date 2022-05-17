@@ -24,18 +24,18 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-  return React.createElement('div',
-  {},
-  React.createElement('h2',{},"Let's start"),
-  React.createElement(Expenses,{data:expenses}));
+//   return React.createElement('div',
+//   {},
+//   React.createElement('h2',{},"Let's start"),
+//   React.createElement(Expenses,{data:expenses}));
 
-  // return (
-  //   <div className="App">
-  //     <h1>Let's start </h1>
-  //     <Expenses  data ={expenses}/>
+  return (
+    <div className="App">
+      <h1>Let's start </h1>
+      <Expenses  data ={expenses}/>
       
-  //   </div>
-  // );
+    </div>
+  );
 }
 
 export default App;
