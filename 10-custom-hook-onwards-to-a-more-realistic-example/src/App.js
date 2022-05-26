@@ -44,6 +44,8 @@ function App() {
   // };
 
   useEffect(() => {
+
+    //This part is custom hook and it is not in this area in the part 1
     const transformTask = tasksObj =>{
 
     const loadedTasks = [];
@@ -53,7 +55,7 @@ function App() {
 
     setTasks(loadedTasks);
   }
-    fetchTasks();
+    fetchTasks({url: 'https://react-http-6b4a6.firebaseio.com/tasks.json'}, transformTask);
   }, [fetchTasks]);
 
   const taskAddHandler = (task) => {
