@@ -1,0 +1,43 @@
+{
+  "todolist": [
+    {
+      "id": "p1",
+      "price": 6,
+      "title": "My first book",
+      "description": "The first book I ever wrote"
+    },
+    {
+      "id": "p2",
+      "price": 5,
+      "title": "My second book",
+      "description": "The second book I ever wrote"
+    },
+    {
+      "id": "p3",
+      "price": 7,
+      "title": "My third book",
+      "description": "The third book I ever wrote"
+    },
+    {
+      "id": "nRFrssh"
+    },
+    {
+      "id": "vtOhFHR"
+    },
+    {
+      "id": "wrekKoS"
+    },
+    {
+      "id": "K1sdJVT"
+    },
+    {
+      "id": "ESIG9dh"
+    },
+    {
+      "id": "uL8oPUF"
+    },
+    {
+      "id": "vHvC_ki"
+    }
+  ]
+}
